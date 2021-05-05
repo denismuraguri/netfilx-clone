@@ -1,11 +1,13 @@
-import React from "react";
-import Jumbotron from "./components/jumbotron";
-import { JumbotronContainer } from "./containers/jumbotron";
-import JumboData from "./fixtures/jumbo";
+import React from 'react';
+import { FooterContainer } from './containers/footer';
+import { JumbotronContainer } from './containers/jumbotron';
 
 function App() {
   return (
+    <>
       <JumbotronContainer />
+      <FooterContainer />
+    </>
   );
 }
 
